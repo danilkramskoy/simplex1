@@ -11,7 +11,7 @@ namespace SimplexTest1
             double[,] table = { {20, 2,  8},
                                 {10, -4,  4},
                                 {30,  6,  6},
-                                { 0, -4, -6} };
+                                { 0, -4, -7} };
 
             double[] variables = new double[3];
             SimplexNamespace.Simplex S = new SimplexNamespace.Simplex(table);
